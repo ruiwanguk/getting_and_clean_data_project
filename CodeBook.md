@@ -14,6 +14,7 @@ Here is the a full [description](http://archive.ics.uci.edu/ml/datasets/Human+Ac
 ###Data Transformation
 
 We followed the steps below to transform the dataset:
+	
 	1. merges the training and test dataset.
 
 	2. extracts only the measurements on the mean and standard deviation for each measurements.
@@ -21,7 +22,7 @@ We followed the steps below to transform the dataset:
 	3. uses descriptive activity names to name the activities in the dataset.
 
 	4. labels the dataset with descriptive variable names.
-	
+
 	5. calculate the average of each feature for each subject and each activity.
 
 
